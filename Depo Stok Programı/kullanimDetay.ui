@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>kullanimDetayi</class>
+ <widget class="QMainWindow" name="kullanimDetayi">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1683</width>
+    <height>817</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tblDetay">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>250</y>
+      <width>1681</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="midLineWidth">
+     <number>0</number>
+    </property>
+    <property name="rowCount">
+     <number>30</number>
+    </property>
+    <property name="columnCount">
+     <number>18</number>
+    </property>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+   </widget>
+   <widget class="QPushButton" name="btnGuncelle">
+    <property name="geometry">
+     <rect>
+      <x>1130</x>
+      <y>70</y>
+      <width>191</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>GUNCELLE</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>90</y>
+      <width>171</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_7">
+     <item>
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>GUNCELLENECEK ISLEM NO:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lneIslemNo"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QSplitter" name="splitter">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>50</y>
+      <width>139</width>
+      <height>94</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+    <widget class="QWidget" name="layoutWidget">
+     <layout class="QVBoxLayout" name="verticalLayout_5">
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>KROKİ NO:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lneKrokiNo"/>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget_2">
+     <layout class="QVBoxLayout" name="verticalLayout_6">
+      <item>
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>HAKEDİŞ:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="cmbHakedis">
+        <item>
+         <property name="text">
+          <string>ODENMEDI</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>ODENDI</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="btnExcell">
+    <property name="geometry">
+     <rect>
+      <x>1502</x>
+      <y>210</y>
+      <width>141</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>EXCEL'E AKTAR</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>160</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_8">
+     <item>
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>CBS ID NO:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lneIslemNo_2"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>100</y>
+      <width>281</width>
+      <height>101</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>70</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ACIKLAMA:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>1540</x>
+      <y>730</y>
+      <width>111</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>KULLANIM SİL</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1683</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
